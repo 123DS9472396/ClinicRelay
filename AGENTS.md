@@ -12,6 +12,7 @@ Keep the product professional, restrained, and original. Do not copy another pro
 - Keep external AI providers optional. The no-key rule engine must remain usable.
 - Validate webhook payloads and return explicit HTTP errors for invalid input.
 - Do not add secrets to the repository. Use `.env.local` locally and platform environment variables in deployment.
+- Never add `Co-authored-by` or any AI attribution trailers to Git commit messages.
 - Run `npm test` and `npm run build` before handoff.
 
 ## Useful commands
