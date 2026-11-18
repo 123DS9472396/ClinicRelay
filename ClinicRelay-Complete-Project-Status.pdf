@@ -1,0 +1,74 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1823 >>
+stream
+BT
+/F1 11 Tf
+72 760 Td
+ (ClinicRelay - Complete Project Status) Tj
+0 -16 Td (18 November 2026) Tj
+0 -16 Td () Tj
+0 -16 Td (PROTOTYPE STATUS) Tj
+0 -16 Td (Working supervised browser demo) Tj
+0 -16 Td () Tj
+0 -16 Td (PRODUCTION STATUS) Tj
+0 -16 Td (Not ready for real patient calls or live clinic operations) Tj
+0 -16 Td () Tj
+0 -16 Td (VERIFIED WORKING) Tj
+0 -16 Td (Groq receptionist, safe rules fallback, call simulator) Tj
+0 -16 Td (appointment requests, human confirmation, callback consent) Tj
+0 -16 Td (call inbox, search/filter, priority sorting, transcripts) Tj
+0 -16 Td (Supabase enquiry/settings persistence and Realtime) Tj
+0 -16 Td (analytics, clinic settings, local fallback, security headers) Tj
+0 -16 Td () Tj
+0 -16 Td (PARTIAL) Tj
+0 -16 Td (Hindi/Marathi voice, mobile sign-off, FAQ approval) Tj
+0 -16 Td (audit trail, analytics trends, realtime concurrency) Tj
+0 -16 Td () Tj
+0 -16 Td (NOT IMPLEMENTED) Tj
+0 -16 Td (Live telephony, speech, authentication, clinic RLS) Tj
+0 -16 Td (calendar, real availability, WhatsApp/SMS/email) Tj
+0 -16 Td (retention/deletion policy, production audit log) Tj
+0 -16 Td () Tj
+0 -16 Td (VALIDATION) Tj
+0 -16 Td (5 tests pass, build passes, typecheck passes) Tj
+0 -16 Td (0 production vulnerabilities) Tj
+0 -16 Td (Health/settings/enquiries/assistant endpoints pass) Tj
+0 -16 Td () Tj
+0 -16 Td (KNOWN UI/ENVIRONMENT) Tj
+0 -16 Td (Marquee was removed and replaced by a static demo status rail) Tj
+0 -16 Td (Browser CSP warnings may come from extensions) Tj
+0 -16 Td (Cloud fallback is shown only if live data cannot load) Tj
+0 -16 Td () Tj
+0 -16 Td (NEXT PILOT) Tj
+0 -16 Td (Test phone number, missed-call forwarding, staff account) Tj
+0 -16 Td (RLS isolation, human callback queue, consented notifications) Tj
+0 -16 Td (No automatic confirmation or real booking claims) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2186
+%%EOF

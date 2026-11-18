@@ -18,3 +18,14 @@ alter table demo_enquiries enable row level security;
 create policy "Demo enquiries are readable by the browser"
   on demo_enquiries for select using (true);
 alter publication supabase_realtime add table public.demo_enquiries;
+
+create table if not exists demo_settings (
+  id text primary key,
+  payload jsonb not null,
+  updated_at timestamptz not null default now()
+);
+
+alter table demo_settings enable row level security;
+create policy "Demo settings are readable by the browser"
+  on demo_settings for select using (true);
+alter publication supabase_realtime add table public.demo_settings;
